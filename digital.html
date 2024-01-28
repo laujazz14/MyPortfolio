@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Digital Sketch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .image-grid a {
+            display: block;
+            height: 200px; /* Set a fixed height for the grid items */
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Digital Sketch</h1>
+    <nav>
+        <a href="index.html" class="#sample-design">Home</a>
+        <a href="Sample.html" class="#ux-design">Sample Design</a>
+        <a href="ux.html" class="#ux-design">U/X</a>
+        <a href="website.html" class="#website">Website</a>
+        <a href="video.html" class="#video">Video</a>
+        <a href="more.html" class="#about">About me!</a>
+    </nav>
+</header>
+
+    <div class="image-grid">
+        <a data-fancybox="gallery" href="img/jass.png"><img src="img/jass.png" alt="Image 1"></a>
+        <a data-fancybox="gallery" href="img/sam5.png"><img src="img/sam5.png" alt="Image 2"></a>
+        <a data-fancybox="gallery" href="img/sam3.png"><img src="img/sam3.png" alt="Image 3"></a>
+        <a data-fancybox="gallery" href="img/marian.png"><img src="img/marian.png" alt="Image 4"></a>
+
+        <a data-fancybox="gallery" href="img/dlove.png"><img src="img/dlove.png" alt="Image 5"></a>
+        <a data-fancybox="gallery" href="img/Scetch1.png"><img src="img/Scetch1.png" alt="Image 6"></a>
+        <a data-fancybox="gallery" href="img/Scetchkath1.png"><img src="img/Scetchkath1.png" alt="Image 7"></a>
+        <a data-fancybox="gallery" href="img/bookabjay.png"><img src="img/bookabjay.png" alt="Image 8"></a>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    </html>

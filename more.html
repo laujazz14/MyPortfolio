@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Info</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .image-grid a {
+            display: block;
+            height: 200px; /* Set a fixed height for the grid items */
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+    h1 {
+      color: #fff;
+    }
+    h2 {
+      color: #0a0a0a;
+    }
+    section {
+      margin-bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Jasel M. Laude</h1>
+        <p>Gharphic Designer | Web Developer</p>
+
+    
+    <nav>
+        <a href="index.html" class="#home">Home</a>
+        <a href="Sample.html" class="#sample-design">Sample Design</a>
+        <a href="ux.html" class="#ux-design">UI/UX</a>
+        <a href="website.html" class="#website">Website</a>
+        <a href="video.html" class="#video">Video</a>
+        <a href="digital.html" class="#digital-sketch">Digital Sketch</a>
+    </nav>
+</header>
+    <h2>Personal Information</h2>
+    <p><strong>Email:</strong> jasellaude003@gmail.com</p>
+    <!--  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">linkedin.com/in/yourlinkedin</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+     Add more personal information as needed -->
+        <h2>Resume</h2>
+        <p>View my resume: <a href="https://drive.google.com/file/d/1CznsJUsrJtEfm8v0CtPDzzDHZrTKfP8A/view?usp=sharing" target="_blank">here</a></p>
+
+    <h2>Certificates</h2>
+ 
+    <div class="image-grid">
+        <a data-fancybox="gallery" href="img/cert (2).jpg"><img src="img/cert (2).jpg" alt="Image 1"></a>
+        <a data-fancybox="gallery" href="img/Web.jpg"><img src="img/Web.jpg" alt="Image 2"></a>
+        <a data-fancybox="gallery" href="img/database.jpg"><img src="img/database.jpg" alt="Image 3"></a>
+        <a data-fancybox="gallery" href="img/cert (3).jpg"><img src="img/cert (3).jpg" alt="Image 4"></a>
+
+        <a data-fancybox="gallery" href="img/cert (4).jpg"><img src="img/cert (4).jpg" alt="Image 5"></a>
+        <a data-fancybox="gallery" href="img/cert (5).jpg"><img src="img/cert (5).jpg" alt="Image 6"></a>
+        <a data-fancybox="gallery" href="img/cert6.jpg"><img src="img/cert6.jpg" alt="Image 7"></a>
+        <a data-fancybox="gallery" href="img/certlead.jpg"><img src="img/certlead.jpg" alt="Image 8"></a>
+        <a data-fancybox="gallery" href="img/certwork.jpg"><img src="img/certwork.jpg" alt="Image 9"></a>
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    </html>
